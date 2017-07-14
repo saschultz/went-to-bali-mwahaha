@@ -1,1 +1,1 @@
-$('#<%= @product.id %>').after('j render @products' );
+$('#<%= @product.name %>').hide().after('<%= j render "product" %>');
