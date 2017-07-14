@@ -21,8 +21,8 @@
     @item.destroy
     @order.save
     respond_to do |format|
-      format.html { redirect_to cart_path }
-      format.js
+      format.html
+      format.js { redirect_to cart_path }
     end
   end
 

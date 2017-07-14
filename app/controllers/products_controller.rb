@@ -2,7 +2,6 @@ class ProductsController < ApplicationController
   before_filter :authorize, except: [:index, :show]
 
   def index
-    sleep 1
     @products = Product.all
     @order_item = current_order.order_items.new
   end
