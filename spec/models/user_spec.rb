@@ -4,5 +4,6 @@ describe User do
   it { should have_secure_password }
   it { should have_many :orders }
   it { should validate_presence_of :email }
-
+  it { should validate_presence_of :password }
+  it { should validate_presence_of :name }
 end
