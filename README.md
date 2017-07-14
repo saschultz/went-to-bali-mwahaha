@@ -7,3 +7,15 @@ To set up:
 * `rake db:setup`
 
 * Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
+
+## Updated Gemfile with the following Gems:
+
+  * gem 'jquery-rails'
+  * gem 'bootstrap-sass'
+  * gem 'rspec-rails'
+  * gem 'launchy'
+  * gem 'shoulda-matchers'
+  * gem 'shoulda-callback-matchers'
+  * gem 'capybara'
+  * gem 'factory_girl_rails'
+  * gem 'simplecov', require: false
