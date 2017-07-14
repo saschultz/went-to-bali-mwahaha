@@ -1,5 +1,12 @@
 class Seed
 
+  admin = User.new
+  admin.name = 'admin'
+  admin.email = 'admin@email.com'
+  admin.password = 'xxxxxx'
+  admin.admin = true
+  admin.save!
+
   def self.begin
     seed = Seed.new
     seed.generate_products
