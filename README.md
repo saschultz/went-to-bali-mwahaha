@@ -35,7 +35,9 @@ run these commands from terminal:
   * Schema relationships
   * Model presence_of validations
   * Model before_save callback method
+  * Order item quantity validation
 
   ### Added features:
 
   * flash messages for signing up, signing in and signing out
+  * quantity of order item has to be greater than or equal to 1
