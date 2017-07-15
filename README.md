@@ -36,6 +36,7 @@ run these commands from terminal:
   * Model presence_of validations
   * Model before_save callback method
   * Order item quantity validation
+  * Product presence_of validations
 
   ### Added features:
 
