@@ -24,9 +24,9 @@ To set up:
 
   ### Database updates:
 
-    * added migration for storing image in products table
-    * added faker data for image in seeds.rb
+  * added migration for storing image in products table
+  * added faker data for image in seeds.rb
 
   ### Added functionality:
 
-    * flash messages for signing up, signing in and signing out
+  * flash messages for signing up, signing in and signing out
