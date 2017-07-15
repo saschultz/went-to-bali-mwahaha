@@ -30,6 +30,12 @@ run these commands from terminal:
   * added migration for storing image in products table
   * added faker data for image in seeds.rb
 
+  ### Testing updates:
+
+  * Schema relationships
+  * Model presence_of validations
+  * Model before_save callback method
+
   ### Added features:
 
   * flash messages for signing up, signing in and signing out
