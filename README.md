@@ -41,3 +41,4 @@ run these commands from terminal:
 
   * flash messages for signing up, signing in and signing out
   * quantity of order item has to be greater than or equal to 1
+  * quantity drop down cannot go into negative numbers
