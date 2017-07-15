@@ -8,19 +8,25 @@ To set up:
 
 * Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
 
-### Gemfil updates:
+## Refactoring Changes
 
-  * gem 'jquery-rails'
-  * gem 'bootstrap-sass'
-  * gem 'rspec-rails'
-  * gem 'launchy'
-  * gem 'shoulda-matchers'
-  * gem 'shoulda-callback-matchers'
-  * gem 'capybara'
-  * gem 'factory_girl_rails'
-  * gem 'simplecov', require: false
+  ### Gemfile updates:
 
-### Database updates:
+    * gem 'jquery-rails'
+    * gem 'bootstrap-sass'
+    * gem 'rspec-rails'
+    * gem 'launchy'
+    * gem 'shoulda-matchers'
+    * gem 'shoulda-callback-matchers'
+    * gem 'capybara'
+    * gem 'factory_girl_rails'
+    * gem 'simplecov', require: false
 
-  * added migration for storing image in products table
-  * added faker data for image in seeds.rb
+  ### Database updates:
+
+    * added migration for storing image in products table
+    * added faker data for image in seeds.rb
+
+  ### Added functionality:
+
+    * flash messages for signing up, signing in and signing out
