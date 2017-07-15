@@ -12,15 +12,15 @@ To set up:
 
   ### Gemfile updates:
 
-    * gem 'jquery-rails'
-    * gem 'bootstrap-sass'
-    * gem 'rspec-rails'
-    * gem 'launchy'
-    * gem 'shoulda-matchers'
-    * gem 'shoulda-callback-matchers'
-    * gem 'capybara'
-    * gem 'factory_girl_rails'
-    * gem 'simplecov', require: false
+  * gem 'jquery-rails'
+  * gem 'bootstrap-sass'
+  * gem 'rspec-rails'
+  * gem 'launchy'
+  * gem 'shoulda-matchers'
+  * gem 'shoulda-callback-matchers'
+  * gem 'capybara'
+  * gem 'factory_girl_rails'
+  * gem 'simplecov', require: false
 
   ### Database updates:
 
