@@ -1,10 +1,12 @@
-# README
+# E-Commerce Application
 
-E-commerce site. Uses `bcrypt` and `materialize`. There's a seed file. Set up your own admin. If you have questions, I'll be in Bali with no email. Ask someone else.
+This application is a cloned e-commerce site created by Epicodus. The application uses `bcrypt` and `materialize` with seeded faker data. AJAX functionality allows users to add to their cart from the all products listings, show/hide the product details, and remove items from their cart without a full page reload.
 
 ## Installation/Serving
+run these commands from terminal:
 
-* `cd [prodject-directory]`
+* `git clone https://github.com/saschultz/went-to-bali-mwahaha`
+* `cd went-to-bali-mwahaha`
 * `bundle install`
 * `rails db:reset`
 * `rails s`
