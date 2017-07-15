@@ -8,7 +8,7 @@ To set up:
 
 * Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
 
-### Updated Gemfile with the following Gems:
+### Gemfil updates:
 
   * gem 'jquery-rails'
   * gem 'bootstrap-sass'
@@ -20,7 +20,7 @@ To set up:
   * gem 'factory_girl_rails'
   * gem 'simplecov', require: false
 
-### Updated database
+### Database updates:
 
-  * added migration for storing image in product table
-  * seeded faker data for image
+  * added migration for storing image in products table
+  * added faker data for image in seeds.rb
