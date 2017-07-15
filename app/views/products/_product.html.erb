@@ -1,3 +1,5 @@
-<p><%= @product.description %></p>
-<p><%= number_to_currency @product.price %></p>
-<a id="hide-details">hide details</a>
+<div class="details-div">
+  <a id="details">hide details</a>
+  <p><%= @product.description %></p>
+  <p><%= number_to_currency @product.price %></p>
+</div>

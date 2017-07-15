@@ -1,1 +1,5 @@
 $('#<%= @product.name %>').hide().after('<%= j render "product" %>');
+$('#details').click(function() {
+  $('.details-div').hide()
+  $('#<%= @product.name %>').show();
+});
