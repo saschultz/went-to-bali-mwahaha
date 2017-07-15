@@ -509,6 +509,7 @@
       "/Users/saschultz/Desktop/went-to-bali-mwahaha/app/models/product.rb": [
         1,
         1,
+        1,
         null
       ],
       "/Users/saschultz/Desktop/went-to-bali-mwahaha/app/models/user.rb": [
@@ -562,6 +563,7 @@
         null,
         1,
         2,
+        2,
         null
       ],
       "/Users/saschultz/Desktop/went-to-bali-mwahaha/spec/models/user_spec.rb": [
@@ -580,6 +582,6 @@
         null
       ]
     },
-    "timestamp": 1500157201
+    "timestamp": 1500157788
   }
 }
