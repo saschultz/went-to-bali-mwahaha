@@ -7,6 +7,8 @@
         1,
         2,
         2,
+        2,
+        null,
         null
       ],
       "/Users/saschultz/Desktop/went-to-bali-mwahaha/spec/rails_helper.rb": [
@@ -501,6 +503,7 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/Users/saschultz/Desktop/went-to-bali-mwahaha/app/models/product.rb": [
@@ -577,6 +580,6 @@
         null
       ]
     },
-    "timestamp": 1500153539
+    "timestamp": 1500156632
   }
 }
