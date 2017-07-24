@@ -14,14 +14,14 @@
       <img src="./assets/0.10.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-07-24T06:32:59-07:00">2017-07-24T06:32:59-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-07-24T08:08:59-07:00">2017-07-24T08:08:59-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">71.91%</span></span>
+    (<span class="covered_percent"><span class="red">71.61%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
@@ -32,9 +32,9 @@
   <a name="AllFiles"></a>
   <div>
     <b>38</b> files in total.
-    <b>235</b> relevant lines. 
+    <b>236</b> relevant lines. 
     <span class="green"><b>169</b> lines covered</span> and
-    <span class="red"><b>66</b> lines missed </span>
+    <span class="red"><b>67</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -122,11 +122,11 @@
       
       <tr>
         <td class="strong"><a href="#bae486c6a77c8381aa87a6d77c3890d714e83875" class="src_link" title="app/controllers/users_controller.rb">app/controllers/users_controller.rb</a></td>
-        <td class="red strong">41.67 %</td>
-        <td>23</td>
-        <td>12</td>
+        <td class="red strong">38.46 %</td>
+        <td>24</td>
+        <td>13</td>
         <td>5</td>
-        <td>7</td>
+        <td>8</td>
         <td>0.4</td>
       </tr>
       
@@ -1452,11 +1452,11 @@
         <div class="source_table" id="bae486c6a77c8381aa87a6d77c3890d714e83875">
   <div class="header">
     <h3>app/controllers/users_controller.rb</h3>
-    <h4><span class="red">41.67 %</span> covered</h4>
+    <h4><span class="red">38.46 %</span> covered</h4>
     <div>
-      <b>12</b> relevant lines. 
+      <b>13</b> relevant lines. 
       <span class="green"><b>5</b> lines covered</span> and
-      <span class="red"><b>7</b> lines missed.</span>
+      <span class="red"><b>8</b> lines missed.</span>
     </div>
   </div>
   
@@ -1538,64 +1538,70 @@
         <li class="missed" data-hits="0" data-linenumber="13">
           
           
-          <code class="ruby">      redirect_to &#39;/signup&#39;</code>
+          <code class="ruby">      flash[:alert] = &quot;There was an error in creating your account. Please check that your password was a minimum length of 6 characters.&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="missed" data-hits="0" data-linenumber="14">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      redirect_to &#39;/sign_up&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
           
           
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="17">
+        <li class="covered" data-hits="1" data-linenumber="18">
           <span class="hits">1</span>
           
           <code class="ruby">  private</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="never" data-hits="" data-linenumber="19">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="19">
+        <li class="covered" data-hits="1" data-linenumber="20">
           <span class="hits">1</span>
           
           <code class="ruby">  def user_params</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="20">
+        <li class="missed" data-hits="0" data-linenumber="21">
           
           
           <code class="ruby">    params.require(:user).permit(:name, :email, :password, :password_confirmation)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="21">
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="never" data-hits="" data-linenumber="23">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="23">
+        <li class="never" data-hits="" data-linenumber="24">
           
           
           <code class="ruby">end</code>
@@ -2051,7 +2057,7 @@
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">  validates(:password, length: { minimum: 6 }, presence: true)</code>
+          <code class="ruby">  validates(:password, length: { in: 6..12 }, format: { with: /\D+\d{1}/i }, presence: true)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
