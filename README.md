@@ -13,7 +13,15 @@ run these commands from terminal:
 
 ## Refactoring Changes
 
-  ### Gemfile updates:
+### Code Review Refactors:
+
+  * flash messages for signing up, signing in and signing out
+  * users cannot order a negative number of items
+  * product validations
+  * product update and delete functionality for admins
+  * admin flash messages for adding, updating and deleting products
+
+### Gemfile updates:
 
   * gem 'jquery-rails'
   * gem 'bootstrap-sass'
@@ -26,21 +34,7 @@ run these commands from terminal:
   * gem 'simplecov', require: false
   * gem 'rails_admin', '~> 1.2'
 
-  ### Database updates:
+### Database updates:
 
   * added migration for storing image in products table
   * added faker data for image in seeds.rb
-
-  ### Testing updates:
-
-  * Schema relationships
-  * Model presence_of validations
-  * Model before_save callback method
-  * Order item quantity validation
-  * Product presence_of validations
-
-  ### Added features:
-
-  * flash messages for signing up, signing in and signing out
-  * quantity of order item has to be greater than or equal to 1
-  * quantity drop down cannot go into negative numbers
