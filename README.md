@@ -18,7 +18,7 @@ run these commands from terminal:
   * flash messages for signing up, signing in and signing out
   * users cannot order a negative number of items
   * product validations
-  * password minimum character validation
+  * password character validation
   * admin flash messages for adding, updating and deleting products
 
 ### Gemfile updates:
