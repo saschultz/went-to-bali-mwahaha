@@ -18,7 +18,7 @@ run these commands from terminal:
   * flash messages for signing up, signing in and signing out
   * users cannot order a negative number of items
   * product validations
-  * product update and delete functionality for admins
+  * password minimum character validation
   * admin flash messages for adding, updating and deleting products
 
 ### Gemfile updates:
@@ -32,7 +32,6 @@ run these commands from terminal:
   * gem 'capybara'
   * gem 'factory_girl_rails'
   * gem 'simplecov', require: false
-  <!-- * gem 'rails_admin', '~> 1.2' -->
 
 ### Database updates:
 
