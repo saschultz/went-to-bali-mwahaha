@@ -20,8 +20,8 @@ run these commands from terminal:
   2. users cannot order a negative number of items
   3. product validations
   4. password complexity validation
-  5.
-  6.
+  5. admin has CRUD functionality for products
+  6. flash messages for admin CRUD
 
 ### Gemfile updates:
 
