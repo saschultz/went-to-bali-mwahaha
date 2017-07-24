@@ -5,7 +5,7 @@
   <p><%= number_to_currency @product.price %></p>
   <% if admin %>
     <%= link_to 'Edit product', edit_product_path(@product) %> | <%= link_to 'Delete product', product_path(@product), 
-      :data => {:confirm => 'Would you like to delete this rpoduct?',
+      :data => {:confirm => 'Would you like to delete this product?',
       :method => 'delete'} %>
   <% end %>
 </div>
