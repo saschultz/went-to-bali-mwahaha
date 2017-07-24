@@ -1,3 +1,4 @@
 $('#<%= @item.id %>').remove();
-$('#cart-number').html("<%= cart_items %>")
-$('#total-price').html("<%= number_to_currency current_order.total_price %>")
+// console.log(<%= @item.id %>);
+$('#cart-total').html("<%= cart_items %>")
+$('#total-amount').html("<%= number_to_currency current_order.total_price %>")
