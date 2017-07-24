@@ -8,6 +8,7 @@ run these commands from terminal:
 * `git clone https://github.com/saschultz/went-to-bali-mwahaha`
 * `cd went-to-bali-mwahaha`
 * `bundle install`
+* `rails db:create`
 * `rails db:reset`
 * `rails s`
 
@@ -15,11 +16,12 @@ run these commands from terminal:
 
 ### Code Review Refactors:
 
-  * flash messages for signing up, signing in and signing out
-  * users cannot order a negative number of items
-  * product validations
-  * password character validation
-  * admin flash messages for adding, updating and deleting products
+  1. flash messages for signing up, signing in and signing out
+  2. users cannot order a negative number of items
+  3. product validations
+  4. password complexity validation
+  5.
+  6.
 
 ### Gemfile updates:
 
