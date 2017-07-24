@@ -5,7 +5,7 @@ class CartsController < ApplicationController
       @previous_orders = current_user.previous_orders
     end
     @order_items = current_order.order_items
-  end
+  end 
 
   def finalize
     if current_user
