@@ -32,7 +32,7 @@ run these commands from terminal:
   * gem 'capybara'
   * gem 'factory_girl_rails'
   * gem 'simplecov', require: false
-  * gem 'rails_admin', '~> 1.2'
+  <!-- * gem 'rails_admin', '~> 1.2' -->
 
 ### Database updates:
 

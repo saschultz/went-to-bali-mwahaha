@@ -253,6 +253,49 @@
         null,
         1
       ],
+      "/Users/saschultz/Desktop/went-to-bali-mwahaha/config/initializers/rails_admin.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/saschultz/Desktop/went-to-bali-mwahaha/config/initializers/session_store.rb": [
         null,
         null,
@@ -353,6 +396,9 @@
         0,
         0,
         0,
+        0,
+        0,
+        null,
         null,
         null,
         1,
@@ -519,12 +565,15 @@
         1,
         null,
         1,
+        null,
+        1,
         0,
         null,
         null
       ],
       "/Users/saschultz/Desktop/went-to-bali-mwahaha/config/routes.rb": [
         1,
+        null,
         null,
         1,
         null,
@@ -585,6 +634,6 @@
         null
       ]
     },
-    "timestamp": 1500157899
+    "timestamp": 1500903179
   }
 }
