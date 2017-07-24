@@ -10,6 +10,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
+      flash[:alert] = "There was an error in creating your account. Please check that your password was a minimum length of 6 characters."
       redirect_to '/sign_up'
     end
   end
