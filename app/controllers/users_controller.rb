@@ -10,7 +10,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-      flash[:alert] = "There was an error in creating your account. Please check that your password has a length between 6-12 characters and includes one number."
+      flash[:alert] = "There was an error in creating your account. Please check that your password has a length between 6-12 characters and includes at least one number."
       redirect_to '/sign_up'
     end
   end
