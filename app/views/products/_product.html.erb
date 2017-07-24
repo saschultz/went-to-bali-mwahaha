@@ -3,4 +3,9 @@
   <p><%= @product.description %></p>
   <img src="<%= @product.image %>">
   <p><%= number_to_currency @product.price %></p>
+  <% if admin %>
+    <%= link_to 'Edit product', edit_product_path(@product) %> | <%= link_to 'Delete product', product_path(@product), 
+      :data => {:confirm => 'Would you like to delete this rpoduct?',
+      :method => 'delete'} %>
+  <% end %>
 </div>
